@@ -25,3 +25,50 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+/* solution from here onwards*/
+
+body{
+  display: flex;
+  flex-direction: column;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  background-color: #eee;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  gap: 16px;
+  
+}
+
+
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1; /* meaning the other two flex boxes will be 0 and that the content itself will grow into the remaining places*/
+}
+
+button{
+  padding: 8px 16px;
+}
+
+a{
+  color: #666;
+  
+}
+
+
+
